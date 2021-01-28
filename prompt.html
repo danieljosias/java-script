@@ -7,7 +7,13 @@
 </head>
 <body>
     <script>
-        window.prompt("Qual é a sua idade?")
+        var number;
+        
+        number = prompt("Qual é a sua idade?") 
+        number = parseFloat(number)
+
+        document.write("Você tem ", number + " anos de idade.")
+
     </script>
 </body>
 </html>
