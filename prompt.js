@@ -1,1 +1,0 @@
-prompt("Digite um número:")
